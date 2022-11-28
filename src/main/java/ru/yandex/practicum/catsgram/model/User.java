@@ -13,6 +13,12 @@ public class User {
 
     public User() {
     }
+    // добавьте конструктор
+    public User(String id, String username, String nickname) {
+        this.id = id;
+        this.username = username;
+        this.nickname = nickname;
+    }
 
     public String getId() {
         return id;
